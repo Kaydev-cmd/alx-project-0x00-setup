@@ -11,8 +11,8 @@ const Landing: React.FC = () => {
         <Card />
       </div>
       <div className="flex justify-around items-center mt-4">
-        <Button title="Small rounded-sm" styles="rounded-sm" />
-        <Button title="Medium rounded-md" styles="rounded-md" />
+        <Button title="small rounded-sm" styles="rounded-sm" />
+        <Button title="medium rounded-md" styles="rounded-md" />
         <Button title="Large rounded-full" styles="rounded-full" />
       </div>
     </div>
