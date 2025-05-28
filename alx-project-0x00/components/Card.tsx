@@ -1,8 +1,11 @@
 import Image from "next/image";
-import HOUSE_IMAGE from "@/public/assets/images/house.jpg";
-import STAR_IMAGE from "@/public/assets/images/star.png";
+// import HOUSE_IMAGE from "@/assets/house.jpg";
+// import STAR_IMAGE from "@/assets/star.png";
 import React from "react";
 import Pill from "./Pill";
+
+const HOUSE_IMAGE = "/assets/images/house.png";
+const STAR_IMAGE = "/assets/images/star.png";
 
 const Card: React.FC = () => {
   return (
@@ -29,7 +32,7 @@ const Card: React.FC = () => {
           </p>
         </div>
         <div className="flex items-center">
-          <Image src={STAR_IMAGE} alt="Star" />
+          <Image src={STAR_IMAGE} alt="Star" width={16} height={16} />
           <p className="font-medium text-[17px] ml-2">4.76</p>
         </div>
       </div>
